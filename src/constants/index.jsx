@@ -1,9 +1,4 @@
 import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,166 +8,132 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "About us", href: "#" },
+  { label: "Funds", href: "#" },
+  { label: "Insurance", href: "#" },
+  { label: "Contact Us", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Ravi Sharma",
+    company: "Sharma Financial Advisors",
     image: user1,
     text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Anita Desai",
+    company: "Desai Wealth Management",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I couldn't be happier with the outcome of our investment planning. The team's innovative approach and problem-solving skills were crucial in realizing our financial goals.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Rajesh Kumar",
+    company: "Kumar Investment Solutions",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Working with this firm was a pleasure. Their meticulous attention to detail and commitment to excellence are truly commendable. I would highly recommend them to anyone seeking exceptional financial advisory services.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Sandeep Patel",
+    company: "Patel Advisory Group",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Collaborating with the team at NICK Investments was transformative for our investment strategy. Their precision and forward-thinking solutions helped us achieve our financial objectives more quickly than anticipated. We appreciate their expertise and dedication!",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Alok Gupta",
+    company: "Gupta Capital Management",
     image: user5,
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Priya Mehta",
+    company: "Mehta Investment Partners",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "The team went above and beyond to ensure our investment project was a success. Their expertise and commitment are unparalleled. I look forward to engaging with them on future ventures.",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Intuitive Financial Planning",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Design and manage your financial strategies with ease using our user-friendly, drag-and-drop interface.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <BotMessageSquare />,
+    text: "Multi-Platform Access",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Access and manage your financial plans from any device—mobile, desktop, or tablet—wherever you are.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BotMessageSquare />,
+    text: "Comprehensive Strategies",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Jumpstart your financial planning with a range of pre-built strategies for budgeting, investment strategies, retirement planning, and more.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <BotMessageSquare/>,
+    text: "Live Portfolio Preview",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "View real-time updates and projections of your investment portfolio as you make adjustments, enabling swift and informed decision-making.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <BotMessageSquare />,
+    text: "Collaborative Planning Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Collaborate with your financial advisors and team members in real-time on investment strategies, ensuring seamless communication and idea exchange.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <BotMessageSquare />,
+    text: "Comprehensive Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access detailed insights into your investment performance and market trends with our integrated analytics dashboard, helping you make data-driven decisions.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Seamless Portfolio Integration",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Effortlessly manage and consolidate your investment portfolios with our advanced tools.",
   },
   {
-    title: "Review code without worry",
+    title: "Insightful Performance Tracking",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Monitor the performance of your investments and gain deep insights into market trends and asset behavior.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "AI-Driven Investment Insights",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage AI technology to streamline your investment strategies and optimize portfolio management with data-driven recommendations.",
   },
   {
-    title: "Share work in minutes",
+    title: "Efficient Collaboration",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Share investment plans and financial reports quickly, ensuring seamless communication and decision-making with clients and colleagues",
   },
 ];
 
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
-  },
-];
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Contact Us" },
+  { href: "#", text: "Address" },
+  { href: "#", text: "Reviews" },
+  
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "LinkedIn" },
+  { href: "#", text: "Maps" },
+  { href: "#", text: "Whatsapp" },
+  { href: "#", text: "Facebook" },
+  { href: "#", text: "Telegram" },
 ];
 
 export const communityLinks = [
   { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
   { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
